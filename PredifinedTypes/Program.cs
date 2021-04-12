@@ -6,7 +6,8 @@ namespace PredifinedTypes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string text = "true";
+            bool valueAsBool = bool.Parse(text);
         }
     }
 }
